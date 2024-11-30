@@ -1,5 +1,8 @@
 function shortcut(s1, s2) {
   // your code here
+	if(s1.length != '' && s2.length != ''){
+		return s1[0] + s2[0];
+	}
 }
 
 // Do not change the code below.
